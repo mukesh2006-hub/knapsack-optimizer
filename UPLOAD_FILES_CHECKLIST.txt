@@ -1,0 +1,107 @@
+FILES YOU NEED TO UPLOAD TO GITHUB
+===================================
+
+✅ MUST HAVE (Critical)
+=======================
+□ src/                    (Your React components folder)
+□ public/                 (Static images, fonts, etc.)
+□ index.html              (Main HTML entry point)
+□ package.json            (Dependencies list)
+□ vite.config.ts          (Build configuration)
+□ tsconfig.json           (TypeScript settings)
+□ README.md               (Project documentation)
+
+✅ SHOULD HAVE (Recommended)
+=============================
+□ .gitignore              (Prevents uploading node_modules)
+□ .eslintrc.cjs           (Code linting rules)
+□ .prettierrc              (Code formatting rules)
+□ tsconfig.node.json      (Node config)
+□ .env.example            (Show what env vars are needed)
+□ CONTRIBUTING.md         (How to contribute)
+
+❌ DO NOT UPLOAD
+=================
+□ node_modules/           (Too large, npm install downloads it)
+□ dist/                   (Build output, regenerated on build)
+□ .next/                  (Cache folder)
+□ .vite/                  (Cache folder)
+□ *.lock                  (package-lock.json or yarn.lock)
+□ .env                    (Secret keys - use .env.example instead)
+□ .DS_Store               (Mac system file)
+□ Thumbs.db               (Windows system file)
+□ .idea/                  (IDE settings)
+□ .vscode/                (VS Code settings - personal)
+
+📁 FOLDER STRUCTURE EXAMPLE
+============================
+knapsack-optimizer/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── public/
+│   └── favicon.svg
+├── index.html
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+├── .gitignore
+├── .eslintrc.cjs
+├── .prettierrc
+├── README.md
+└── SETUP_GUIDE.md
+
+🚀 UPLOAD METHODS
+==================
+
+1. GitHub Web Interface:
+   - Go to github.com/mukesh2006-hub/knapsack-optimizer
+   - Click "Add file" → "Upload files"
+   - Drag and drop your files/folders
+   - Click "Commit changes"
+
+2. Command Line (Windows Terminal):
+   - git add .
+   - git commit -m "Add all project files"
+   - git push origin main
+
+3. GitHub Desktop:
+   - Add local repository
+   - Choose files to include
+   - Commit
+   - Publish to GitHub
+
+⚠️ COMMON MISTAKES
+===================
+
+❌ Uploading node_modules → Makes repo 100+ MB
+❌ Uploading .env file → Exposes secret keys
+❌ Forgetting src/ folder → Project won't run
+❌ Uploading .zip file → Shows zip, not contents
+❌ Not committing → Files don't save
+❌ Missing README.md → Looks unprofessional
+❌ Uploading only package.json → Missing source code
+
+✅ VERIFICATION AFTER UPLOAD
+==============================
+
+1. Visit: https://github.com/mukesh2006-hub/knapsack-optimizer
+2. Check you can see:
+   ✓ src/ folder
+   ✓ public/ folder
+   ✓ package.json file
+   ✓ vite.config.ts file
+   ✓ README.md with description
+   ✓ No node_modules folder
+   ✓ Multiple commits in history
+
+3. Test by cloning fresh:
+   git clone https://github.com/mukesh2006-hub/knapsack-optimizer.git
+   cd knapsack-optimizer
+   npm install
+   npm run dev
+
+✨ SUCCESS = Project runs without errors!
